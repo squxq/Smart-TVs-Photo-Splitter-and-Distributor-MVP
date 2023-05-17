@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+<div class="wrapper">
+  <header>Upload Image</header>
+  <form action="#">
+    <input class="file-input" type="file" name="file" hidden />
+    <i class="fas fa-cloud-upload-alt"></i>
+    <p>Browse File to Upload</p>
+  </form>
+  <section class="uploaded-area"></section>
+</div>
+{% endblock %}
